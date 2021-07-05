@@ -1,3 +1,38 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.all-section{
+    display: flex;
+    margin: 0;
+    background-color: rgb(245, 222, 193);
+}
+.top-image img{
+    height: 300px;
+    width: 1325px;
+    margin: 0.5%;
+    }
 .green{
     color: blue;
+}
+.button{
+    text-decoration: none;
+    color: wheat;
+    padding: 10px 20px;
+    background-image: linear-gradient(blue, skyblue);
+    border-radius: 7%;
+}
+.all-div{
+    width: 50%;
+    padding: 5%;
+}
+.all-div h1{
+    font-size: 200%;
+}
+.all-div h3{
+    color: blue;
+}
+.all-div img{
+    width: 500px;
+    height: 300px;
+    padding: 5%;
 }
