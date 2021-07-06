@@ -1,10 +1,10 @@
 body{
     font-family: 'Roboto Mono', monospace;
+    margin: 0;
 }
-.all-section{
+.flexible-container{
     display: flex;
     margin: 0;
-    background-color: rgb(245, 222, 193);
 }
 .top-image img{
     height: 300px;
@@ -35,4 +35,41 @@ body{
     width: 500px;
     height: 300px;
     padding: 5%;
+}
+.second-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.recipie{
+    text-align: center;
+    background-color: white;
+}
+.recipie-item{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+#the-best-grilled{
+    border: 10px solid snow;
+    border-image:round;
+    border-image-slice: 2;
+    border-radius: 10px;
+}
+#smoky-chicken{
+    border: 10px solid snow;
+    border-image:round;
+    border-image-slice: 2;
+    border-radius: 10px;
+}
+#instant-pot-baby{
+    border: 10px solid snow;
+    border-image:round;
+    border-image-slice: 2;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
 }
